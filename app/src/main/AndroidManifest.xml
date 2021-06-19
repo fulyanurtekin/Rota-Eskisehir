@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rotaeskisehir">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/caricon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/caricon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.rotaeskisehir.Login"/>
+        <activity android:name="com.rotaeskisehir.Admin" />
+        <activity android:name="com.rotaeskisehir.Add" />
+        <activity android:name="com.rotaeskisehir.Profil" />
+        <activity android:name="com.rotaeskisehir.Offer" />
+        <activity android:name="com.rotaeskisehir.Home" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity android:name="com.rotaeskisehir.Login.HesabinizAskiyaAlindi"/>
+        <activity android:name="com.rotaeskisehir.Login.Kayit"/>
+        <activity android:name="com.rotaeskisehir.Login.LoginActivity"/>
+        <activity android:name="com.rotaeskisehir.Login.RegisterActivity"/>
+        <activity android:name="com.rotaeskisehir.Admin" />
+        <activity android:name="com.rotaeskisehir.Add.Mekan" />
+        <activity android:name="com.rotaeskisehir.Profil.ProfileFragment" />
+        <activity android:name="com.rotaeskisehir.Profil.SifreDegistir" />
+        <activity android:name="com.rotaeskisehir.Offer.OfferOneri" />
+        <activity android:name="com.rotaeskisehir.Home" />
+        <activity android:name="com.rotaeskisehir.Home.MainActivity" />
+
+    </application>
+
+</manifest>

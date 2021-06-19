@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "568778680162",
+    "firebase_url": "https://rota-eskisehir-default-rtdb.firebaseio.com",
+    "project_id": "rota-eskisehir",
+    "storage_bucket": "rota-eskisehir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568778680162:android:29bd6984b151052447ae3b",
+        "android_client_info": {
+          "package_name": "com.eskisehirteknik.rotaeskisehir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568778680162-7uvf4bn0jjbbd4j993ah69keggacjki4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOC6rNHB0ZDEU1dflgMvnLWIj7fkM0u-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568778680162-7uvf4bn0jjbbd4j993ah69keggacjki4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
